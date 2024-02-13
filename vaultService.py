@@ -1,6 +1,6 @@
 import requests
 
-url = "https://hashicorpvault.corp.multiscale.tech/v1/testsecret/data/"
+url = "http://hashicorpvault.corp.multiscale.tech/v1/testsecret/data/"
 token = "hvs.UdOmnFHEXyCVjkzYGRjmqb2r"
 headers={"X-Vault-Token": token}
 
