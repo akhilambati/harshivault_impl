@@ -21,5 +21,5 @@ async function getVaultKeyValue(path, ...keys) {
     return vals;
 }
 
-getVaultKeyValue("mysql", "username","password").then(value => console.log(value));
+getVaultKeyValue("mongo", "username","password").then(value => console.log(value));
 

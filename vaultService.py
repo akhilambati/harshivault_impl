@@ -17,6 +17,6 @@ def getVaultValue(path,keys):
         print("Error file fetching response from vault, response code {}".format(response.status_code))
         raise Exception("Error file fetching response from vault, response code {}".format(response.status_code))
 
-print(getVaultValue("mysql",["username","password"]))
+print(getVaultValue("mongo",["username","password"]))
 
 
